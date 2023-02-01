@@ -58,8 +58,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 m-auto text-white">
-					<h2>Home</h2>
-					<p>Physical Activity Or Can Improve Your Health</p>
+					<h2>Wellness Living</h2>
 				</div>
 			</div>
 		</div>
@@ -73,7 +72,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
 			<div class="section-title text-center">
 				<img src="img/icons/logo-icon.png" alt="">
 				<h2>Pricing plans</h2>
-				<p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+				<p>Physical activity can take care of your soul and enjoy life more fully!</p>
 			</div>
 			<div class="row">
 				        <?php 

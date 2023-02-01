@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8ce7e77912.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/supplements.css">
+    <link rel="stylesheet" href="css/veg-diet.css">
     <title>supplement</title>
 </head>
 <body>

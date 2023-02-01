@@ -65,7 +65,7 @@ if(isset($_POST['submit'])) {
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 m-auto text-white">
-					<h2>Login</h2>
+					<h2>Login Page</h2>
 					
 				</div>
 			</div>

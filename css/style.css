@@ -19,6 +19,10 @@ body {
 	font-smoothing: antialiased;
 }
 
+.set-bg{
+	background-position: bottom !important;
+}
+
 h1,
 h2,
 h3,
@@ -150,8 +154,8 @@ ol {
 .search-model:after,
 .hero-section,
 .back-to-top {
-	background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
-	background: linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+	background: -o-linear-gradient(305deg, #dbff65 0%, #99c3fa 100%);
+	background: linear-gradient(145deg, #dbff65 0%, #99c3fa 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f65d5d", endColorstr="#fdb07d", GradientType=1);
 }
 
@@ -159,8 +163,8 @@ ol {
 .infor-form button,
 .site-btn.sb-line-gradient,
 .site-btn.sb-gradient {
-	background: -o-linear-gradient(305deg, #fdb07d 0%, #f65d5d 100%);
-	background: linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
+	background: -o-linear-gradient(305deg, #7dcefd 0%, #5df688ed 100%);
+	background: linear-gradient(145deg, #5df688ed 0%, #5df688ed 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdb07d", endColorstr="#f65d5d", GradientType=1);
 }
 
@@ -232,7 +236,7 @@ ol {
 }
 
 .site-btn.sb-line-gradient {
-	color: #f65d5d;
+	color: #5df688ed ;
 	padding: 13px 29px;
 	position: relative;
 	-webkit-transition: all 0.4s;
@@ -497,13 +501,18 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #fff;
+	color:#212529;
+}
+.main-menu li>a:hover{
+	color:white;
 }
 
 .main-menu li>a.active {
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #212529;
 }
-
+.main-menu li>a.active:hover{
+	color:white;
+}
 .main-menu li:hover .sub-menu {
 	visibility: visible;
 	opacity: 1;
@@ -2432,15 +2441,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .pricing-item.begginer .pi-top {
-	background: #fdb07d;
+	background: #5df688ed;
 }
 
 .pricing-item.entermediate .pi-top {
-	background: #fa8f70;
+	background: #5df688ed;
 }
 
 .pricing-item.advanced .pi-top {
-	background: #f2786f;
+	background: #5df688ed;
 }
 
 .pricing-item.professional .pi-top {
@@ -2735,6 +2744,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-size: 45px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	color:#212529;
 }
 
 .page-top-section p {
